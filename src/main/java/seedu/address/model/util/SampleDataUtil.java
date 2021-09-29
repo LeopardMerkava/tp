@@ -19,7 +19,7 @@ import seedu.address.model.tag.Tag;
  */
 public class SampleDataUtil {
 
-    public static Remark NO_REMARK = new Remark("");
+    public static final Remark NO_REMARK = new Remark("");
 
     public static Person[] getSamplePersons() {
         return new Person[] {
