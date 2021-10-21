@@ -36,9 +36,9 @@ class DeleteTaskCommandTest {
     @Test
     public void constructor_nullArgs_throwsNullPointerException() {
         Index targetTasksIndex = Index.fromZeroBased(model.getFilteredPersonList()
-                        .get(1)
-                        .getTasks()
-                        .size());
+                .get(1)
+                .getTasks()
+                .size());
         List<Index> targetTaskIndexList = new ArrayList<>();
         targetTaskIndexList.add(targetTasksIndex);
 
